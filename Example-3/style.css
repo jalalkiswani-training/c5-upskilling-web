@@ -1,0 +1,47 @@
+body{
+    font-family: 'Hind', sans-serif;
+}
+header{
+background-color:#006d77;
+text-align: center;
+padding: 50px;
+font-size: 2em;
+font-family: 'Arimo', sans-serif;
+}
+nav{
+    background-color: #83c5be;
+    padding:2px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+li{
+    display: inline-block;
+    padding-right: 30px;
+}
+nav a{
+    color:#006d77;    
+    text-decoration: none;
+}
+nav a:hover{
+    color:black;
+}
+
+#main-contents{
+    text-align: center;
+    padding:20px;
+    background-color:#edf6f9;
+    min-height: 400px;
+}
+footer{
+    text-align: center;
+    font-size: 0.9em;
+    background-color: #033b40;
+    color: white;
+    padding:20px ;
+}
+.page-title{
+    font-size: 1.6em ;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: black;
+    text-shadow: 1px 1px gray;
+}
