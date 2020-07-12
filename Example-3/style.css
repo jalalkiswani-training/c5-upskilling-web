@@ -1,15 +1,27 @@
 body{
     font-family: 'Hind', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-color: lightblue;
+    min-height: 100vh;
+
+}
+#page-container{
+    margin:20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
 }
 header{
-background-color:#006d77;
+background-color:#0466c8;
 text-align: center;
 padding: 50px;
 font-size: 2em;
 font-family: 'Arimo', sans-serif;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
 }
 nav{
-    background-color: #83c5be;
+    background-color: #0353a4;
     padding:2px;
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
@@ -18,8 +30,14 @@ li{
     padding-right: 30px;
 }
 nav a{
-    color:#006d77;    
+    color:#efefff;    
     text-decoration: none;
+    font-size: 1.3em;
+    margin: 0px;
+}
+nav i{
+    color:#c9cedc;
+    padding-right: 5px;
 }
 nav a:hover{
     color:black;
@@ -27,14 +45,15 @@ nav a:hover{
 
 #main-contents{
     text-align: center;
-    padding:20px;
-    background-color:#edf6f9;
+    padding:0px;
+    margin: 0px;
+    background-color: #000000;
     min-height: 400px;
 }
 footer{
     text-align: center;
     font-size: 0.9em;
-    background-color: #033b40;
+    background-color: #002855;
     color: white;
     padding:20px ;
 }
@@ -44,4 +63,35 @@ footer{
     border-bottom-width: 1px;
     border-bottom-color: black;
     text-shadow: 1px 1px gray;
+}
+
+#row1{
+    background-color: white ;
+    padding: 50px;;
+}
+#row2{
+    padding:5px 50px;
+    background-color: #002855;
+}
+
+#row2 .row-item{
+    display: inline-block;
+    width: 30%;
+    background-color: #c9d7dc;
+    border-radius: 5px;
+    margin: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    min-height: 300px;
+    border-bottom: 4px solid #0779e4;
+}
+
+#row2 .row-item h3{
+    border-bottom: solid 1px gray;
+}
+
+img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1px;   
 }

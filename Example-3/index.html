@@ -6,32 +6,64 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Arimo&family=Hind:wght@300&family=Yanone+Kaffeesatz:wght@200;400&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arimo&family=Hind:wght@300&family=Yanone+Kaffeesatz:wght@200;400&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+        crossorigin="anonymous">
 </head>
+
 <body>
-    <!-- The header section (html comment)-->
-    <header>
-        Header Goes Here
-    </header>
-    <nav>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="about.html">About</a> </li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-    <div id="main-contents">
-        <h1 class="page-title">Welcome to the home page</h1>
-        <p>
-            Lorem ipsum dolor <a href="#">Test Link</a> sit amet consectetur adipisicing elit. Iure impedit qui, provident tempora quibusdam, reiciendis sit voluptatibus aperiam, repellat dolores nam facere? Eius itaque commodi hic blanditiis quo magnam quod.
-        </p>
+    <div id="page-container">
+        <!-- The header section (html comment)-->
+        <header>
+            Header Goes Here
+        </header>
+        <nav>
+            <ul>
+                <li><a href="/"><i class="fas fa-home"></i></i>Home</a></li>
+                <li><a href="about.html"><i class="fas fa-address-card"></i>About</a> </li>
+                <li><a href="#"><i class="fab fa-servicestack"></i>Service</a></li>
+                <li><a href="#"><i class="fas fa-sitemap"></i>Products</a></li>
+                <li><a href="#"><i class="fas fa-envelope-open"></i>Contact</a></li>
+            </ul>
+        </nav>
+        <div id="main-contents">
+            <div id="row1">
+                <h1 class="page-title">Welcome to the home page</h1>
+                <img src="htu.jpg" width="600"/>
+                <p>
+                    Lorem ipsum dolor <a href="#">Test Link</a> sit amet consectetur adipisicing elit. Iure impedit qui,
+                    provident tempora quibusdam, reiciendis sit voluptatibus aperiam, repellat dolores nam facere? Eius
+                    itaque commodi hic blanditiis quo magnam quod.
+                </p>
+            </div>
+            <div id="row2">
+                <div class="row-item">
+                    <h3>Latest News</h3>
+                    <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id sunt, odio reiciendis
+                        minima quis nostrum possimus facere ab sed perferendis laborum, dolores amet nisi a enim
+                        iure voluptatibus aperiam repellat.</div>
+                </div>
+                <div class="row-item">
+                    <h3>FAQ</h3>
+                    <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id sunt, odio reiciendis
+                        minima quis nostrum possimus facere ab sed perferendis laborum, dolores amet nisi a enim
+                        iure voluptatibus aperiam repellat.</div>
+                </div>
+                <div class="row-item">
+                    <h3>Usefull Links</h3>
+                    <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id sunt, odio reiciendis
+                        minima quis nostrum possimus facere ab sed perferendis laborum, dolores amet nisi a enim
+                        iure voluptatibus aperiam repellat.</div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            Footer goes here
+        </footer>
     </div>
-    <footer>
-        Footer goes here
-    </footer>
 </body>
 
 </html>
