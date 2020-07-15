@@ -1,0 +1,106 @@
+body{
+    padding: 0px;
+    margin:0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+}
+#main-container{
+background-color: red;
+color: rgb(228, 222, 222);
+background-color: black;
+}
+#top-header{
+    background-color: #6F6F6F;
+    text-align: center;
+    font-size: 1.4em;
+
+    padding-top: 10px;
+    height: 40px;
+    font-weight: bold;
+}
+#top-menu{
+    background-color: #000000;
+    padding: 10px;
+}
+#top-menu .left-items{
+    display: inline-block;
+    width: 49%;
+    text-align: left;
+}
+
+#top-menu .right-items{
+    display: inline-block;
+    width: 49%;
+    text-align: right;
+}
+#top-menu a{
+    color: rgb(228, 222, 222);
+    text-decoration: none;
+    margin-left: 10px;
+}
+#top-menu a:hover{
+    color:#98c1d9;
+}
+
+
+#page-container{
+    background-color: #c3c9d1;
+    min-height: 80vh;
+    background-image: url(../images/bg2.png);
+    background-size: 200px;
+    text-align: center;
+}
+#blocks-container{
+    width: 700px;
+    padding-top: 50px;
+    margin: auto;
+    text-align: center;
+}
+.block{
+    display: inline-block;
+    width: 180px;
+    height: 100px;
+    background-color: yellow;
+    margin: 10px;
+    padding-top: 50px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+a.block{
+    color: rgb(228, 222, 222);
+    text-decoration: none;
+}
+a.block:hover{
+text-decoration: underline;
+background-color: rgba(0,0,0,0.2) ;
+color:black;
+}
+
+#footer{
+    background-color: #CF7133;
+    padding: 10px;
+    text-align: center;
+}
+.color1{
+background-color: #197278;
+}
+.color2{
+    background-color: #c44536;
+}
+.color3{
+   background-color: #5e6472;
+}
+.color4{
+    background-color: #b56576;
+}
+.color5{
+    background-color: #3a0ca3;
+}
+.color6{
+    background-color: #588b8b;
+}
+.color7{
+    background-color: #001233;
+}
