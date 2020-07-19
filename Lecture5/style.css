@@ -1,0 +1,18 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+*{
+box-sizing: border-box;
+}
+.row{
+    text-align: center;
+    height: 100px;
+    background-color: gray;
+}
+
+.row div{
+    height: 100%; 
+}
+
