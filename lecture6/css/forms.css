@@ -1,0 +1,59 @@
+.form{
+    width: 300px;
+    background: white;
+    margin: 20px;
+    padding: 10px;
+    font-size: 0.7em;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,.2);
+}
+
+.form .form-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 10%;
+}
+.form .form-header .form-title{
+    font-size: 0.9em;
+}
+
+.form .form-body{
+    flex-basis: 80%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+}
+.form .form-body .form-fields{
+    display: flex;
+    flex-direction: column;
+}
+
+.form .form-footer{
+    flex-basis: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+font-size: 0.8em;
+}
+.main-actions{
+    padding: 5px;
+    text-align: center;
+}
+button{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    min-width: 100px;
+}
+
+input[type=text],input[type=password]{
+    border:1px solid blue;
+    padding: 5px;
+    border-radius: 5px;
+}

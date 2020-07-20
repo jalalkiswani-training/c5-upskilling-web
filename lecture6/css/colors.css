@@ -1,0 +1,24 @@
+.black{
+background-color: rgb(32, 32, 32);
+}
+.gray{
+    background-color: gray;
+}
+.green{
+    background-color: darkgreen;
+}
+.orange{
+background-color: coral;
+}
+.yellow{
+    background-color: rgb(241, 241, 128);
+}
+.light-yellow{
+    background: rgb(238, 238, 203);
+}
+.blue{
+    background-color: rgb(120, 120, 230);
+}
+.light-green{
+    background-color: rgb(137, 214, 137);
+}
