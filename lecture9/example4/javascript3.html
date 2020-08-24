@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function sayHello() {
+        //var value="Jalal";//scalar variables
+        var value=document.getElementById("user-name").value;
+
+        if(value.length<=3){
+            alert("Name should be longer than 3");
+        }else{
+            alert("Hi, "+value+"!");
+        }
+        
+    }
+    
+</script>
+<body>
+    <input type="text" name="user-name" id="user-name"
+    placeholder="Enter your name">
+    <button onclick="sayHello()">Say Hello</button>
+</body>
+</html>

@@ -1,0 +1,31 @@
+.calc {
+    font-size: 1.2em;
+    ;
+    width: 200px;
+    background-color: lightgray;
+    margin: auto;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 2px #ccc;
+}
+
+.calc .results {}
+
+.calc .results label {}
+
+.calc .results input {
+    margin: 4px;
+    width: 90%;
+}
+
+.calc .buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.calc .buttons button {
+    flex-basis: 22%;
+    margin: 2px;
+}

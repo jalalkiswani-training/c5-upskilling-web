@@ -1,0 +1,38 @@
+#container{
+    margin: auto;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-form{
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+
+
+input[type=text],input[type=password]{
+    display: block;
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 3px;;
+    border-radius: 5px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 100%;
+    width: 100%;
+}
+
+footer ul li{
+    display: inline;
+}
+

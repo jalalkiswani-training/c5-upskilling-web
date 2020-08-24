@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="calc">
+        <div class="results">
+            <label>Results: </label>
+            <label id="txtNum1"></label>
+            <input type="text" id="txtResults" />
+        </div>
+        <div class="buttons">
+            <button onclick="processNumber(7)">7</button>
+            <button onclick="processNumber(8)"> 8</button>
+            <button onclick="processNumber(9)">9</button>
+            <button onclick="processOp('+')">+</button>
+            <button onclick="processNumber(4)">4</button>
+            <button onclick="processNumber(5)">5</button>
+            <button onclick="processNumber(6)">6</button>
+            <button onclick="processOp('-')">-</button>
+            <button onclick="processNumber(1)">1</button>
+            <button onclick="processNumber(2)">2</button>
+            <button onclick="processNumber(3)">3</button>
+            <button onclick="processOp('*')">*</button>
+            <button onclick="processNumber(0)">0</button>
+            <button>.</button>
+            <button onclick="processResult()">=</button>
+            <button onclick="processOp('/')">/</button>
+        </div>
+</body>
+
+</html>
